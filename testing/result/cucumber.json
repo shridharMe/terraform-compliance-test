@@ -1,0 +1,289 @@
+[
+    {
+        "description": "In order to improve operation visibilty\nAs engineers\nWe'll use tags to recognized the resources ownership",
+        "elements": [
+            {
+                "description": "",
+                "id": "1",
+                "keyword": "Scenario",
+                "line": 6,
+                "name": "Ensure all resources have tags",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "line": 7,
+                        "name": "Given I have resource that supports tags defined",
+                        "result": {
+                            "duration": 705000,
+                            "status": "passed"
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "line": 8,
+                        "name": "Then it must contain tags",
+                        "result": {
+                            "duration": 305000,
+                            "status": "passed"
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "line": 9,
+                        "name": "And its value must not be null",
+                        "result": {
+                            "duration": 1296000,
+                            "error_message": "\r       ",
+                            "status": "failed"
+                        }
+                    }
+                ],
+                "tags": [],
+                "type": "scenario"
+            }
+        ],
+        "id": "1",
+        "keyword": "Feature",
+        "line": 1,
+        "name": "Tags are defined to all the resources",
+        "tags": [],
+        "type": "feature",
+        "uri": "/Users/saspatil/Workspace/terraform-compliance-test/testing/defaultTags.feature"
+    },
+    {
+        "description": "In order to improve consitancy across the resource\nAs engineers\nWe'll use tags to recognized the resources ownership",
+        "elements": [
+            {
+                "description": "",
+                "id": "2",
+                "keyword": "Scenario Outline",
+                "line": 6,
+                "name": "Ensure that specific tags are defined - row 0",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "line": 15,
+                        "name": "Given I have resource that supports tags defined",
+                        "result": {
+                            "duration": 343000,
+                            "status": "passed"
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "line": 15,
+                        "name": "When it has tags",
+                        "result": {
+                            "duration": 1157000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "line": 15,
+                        "name": "Then it must contain tags",
+                        "result": {
+                            "duration": 41000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "line": 15,
+                        "name": "Then it must contain \"Name\"",
+                        "result": {
+                            "duration": 22000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "line": 15,
+                        "name": "And its value must match the \".+\" regex",
+                        "result": {
+                            "duration": 22000,
+                            "status": "skipped"
+                        }
+                    }
+                ],
+                "tags": [],
+                "type": "scenario"
+            },
+            {
+                "description": "",
+                "id": "3",
+                "keyword": "Scenario Outline",
+                "line": 6,
+                "name": "Ensure that specific tags are defined - row 1",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "line": 16,
+                        "name": "Given I have resource that supports tags defined",
+                        "result": {
+                            "duration": 311000,
+                            "status": "passed"
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "line": 16,
+                        "name": "When it has tags",
+                        "result": {
+                            "duration": 997000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "line": 16,
+                        "name": "Then it must contain tags",
+                        "result": {
+                            "duration": 28000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "line": 16,
+                        "name": "Then it must contain \"application\"",
+                        "result": {
+                            "duration": 19000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "line": 16,
+                        "name": "And its value must match the \".+\" regex",
+                        "result": {
+                            "duration": 20000,
+                            "status": "skipped"
+                        }
+                    }
+                ],
+                "tags": [],
+                "type": "scenario"
+            },
+            {
+                "description": "",
+                "id": "4",
+                "keyword": "Scenario Outline",
+                "line": 6,
+                "name": "Ensure that specific tags are defined - row 2",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "line": 17,
+                        "name": "Given I have resource that supports tags defined",
+                        "result": {
+                            "duration": 267000,
+                            "status": "passed"
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "line": 17,
+                        "name": "When it has tags",
+                        "result": {
+                            "duration": 1215000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "line": 17,
+                        "name": "Then it must contain tags",
+                        "result": {
+                            "duration": 40000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "line": 17,
+                        "name": "Then it must contain \"role\"",
+                        "result": {
+                            "duration": 20000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "line": 17,
+                        "name": "And its value must match the \".+\" regex",
+                        "result": {
+                            "duration": 19000,
+                            "status": "skipped"
+                        }
+                    }
+                ],
+                "tags": [],
+                "type": "scenario"
+            },
+            {
+                "description": "",
+                "id": "5",
+                "keyword": "Scenario Outline",
+                "line": 6,
+                "name": "Ensure that specific tags are defined - row 3",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "line": 18,
+                        "name": "Given I have resource that supports tags defined",
+                        "result": {
+                            "duration": 282000,
+                            "status": "passed"
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "line": 18,
+                        "name": "When it has tags",
+                        "result": {
+                            "duration": 863000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "line": 18,
+                        "name": "Then it must contain tags",
+                        "result": {
+                            "duration": 32000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "line": 18,
+                        "name": "Then it must contain \"environment\"",
+                        "result": {
+                            "duration": 19000,
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "line": 18,
+                        "name": "And its value must match the \"^(prod|uat|dev)$\" regex",
+                        "result": {
+                            "duration": 19000,
+                            "status": "skipped"
+                        }
+                    }
+                ],
+                "tags": [],
+                "type": "scenario"
+            }
+        ],
+        "id": "2",
+        "keyword": "Feature",
+        "line": 1,
+        "name": "IF Tags are defined than it should have required values",
+        "tags": [],
+        "type": "feature",
+        "uri": "/Users/saspatil/Workspace/terraform-compliance-test/testing/tags.feature"
+    }
+]
